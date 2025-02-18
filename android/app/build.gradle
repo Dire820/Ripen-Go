@@ -1,0 +1,48 @@
+plugins {
+    id "com.android.application"
+    id 'org.jetbrains.kotlin.android'
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    dependencies {
+        implementation project(':flutter_plugin_android_lifecycle')
+    }
+
+    namespace = "com.example.ripen_go"
+    compileSdk = 34  // Adjust this to your Flutter SDK version
+    ndkVersion = "25.2.9519653" // Check your installed NDK version in Android SDK Manager
+
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.example.ripen_go"
+        minSdk = 21
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0.0"
+    }
+
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+

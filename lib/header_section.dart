@@ -23,19 +23,19 @@ class HeaderSection extends StatelessWidget {
         children: [
           Stack(
             children: [
-              Image.asset("../assets/logo2.png", height: 40), // Reduced height
+              Image.asset("assets/logo2.png", height: 40), // Reduced height
               Positioned(
                 left: 0,
                 top: 0,
                 child: ImageFiltered(
                   imageFilter: ImageFilter.blur(sigmaX: 2.5, sigmaY: 2.5), // Reduced blur
-                  child: Image.asset("../assets/logo2.png", height: 40, color: Colors.black.withOpacity(0.5)), // Reduced height
+                  child: Image.asset("assets/logo2.png", height: 40, color: Colors.black.withOpacity(0.5)), // Reduced height
                 ),
               ),
               Positioned(
                 left: 0,
                 top: 0,
-                child: Image.asset("../assets/logo2.png", height: 40), // Reduced height
+                child: Image.asset("assets/logo2.png", height: 40), // Reduced height
               ),
             ],
           ),

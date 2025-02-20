@@ -41,7 +41,7 @@ class StartScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('../assets/logo2.png', height: 150),
+            Image.asset('assets/logo2.png', height: 150),
             SizedBox(height: 20),
             Text(
               "Explore the app",
@@ -125,7 +125,7 @@ class _LoginScreenState extends State<LoginScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Center(
-                  child: Image.asset("../assets/logo2.png", height: 60),
+                  child: Image.asset("assets/logo2.png", height: 60),
                 ),
                 SizedBox(height: 10),
                 Text("Hi, Welcome to RipeN-Go", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Color(0xFF347928))),

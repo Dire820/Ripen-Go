@@ -82,7 +82,7 @@ class _MainScreenState extends State<MainScreen> {
                 ),
               ),
               child: Center(
-                child: Image.asset("../assets/scanner_icon.png", width: 40, height: 40),
+                child: Image.asset("assets/scanner_icon.png", width: 40, height: 40),
               ),
             ),
           ),
@@ -149,19 +149,19 @@ class HomeHeaderSection extends StatelessWidget {
         children: [
           Stack(
             children: [
-              Image.asset("../assets/logo2.png", height: 80),
+              Image.asset("assets/logo2.png", height: 80),
               Positioned(
                 left: 0,
                 top: 0,
                 child: ImageFiltered(
                   imageFilter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-                  child: Image.asset("../assets/logo2.png", height: 80, color: Colors.black.withOpacity(0.5)),
+                  child: Image.asset("assets/logo2.png", height: 80, color: Colors.black.withOpacity(0.5)),
                 ),
               ),
               Positioned(
                 left: 0,
                 top: 0,
-                child: Image.asset("../assets/logo2.png", height: 80,),
+                child: Image.asset("assets/logo2.png", height: 80,),
               ),
             ],
           ),

@@ -134,7 +134,7 @@ class HomeHeaderSection extends StatelessWidget {
       padding: EdgeInsets.all(16.0),
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage("Untitled-1.png"),
+          image: AssetImage("assets/Untitled-1.png"),
           fit: BoxFit.cover,
           colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.35), BlendMode.darken),
         ),

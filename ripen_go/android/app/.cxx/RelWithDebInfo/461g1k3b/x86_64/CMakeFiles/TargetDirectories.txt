@@ -1,2 +1,0 @@
-C:/Users/josia/Documents/Josiah/Flutter/capstone/ripen_go/android/app/.cxx/RelWithDebInfo/461g1k3b/x86_64/CMakeFiles/edit_cache.dir
-C:/Users/josia/Documents/Josiah/Flutter/capstone/ripen_go/android/app/.cxx/RelWithDebInfo/461g1k3b/x86_64/CMakeFiles/rebuild_cache.dir
